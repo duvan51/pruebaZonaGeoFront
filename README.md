@@ -1,12 +1,61 @@
-# React + Vite
+# 🌐 Frontend - Mini Proyecto con React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es la parte **frontend** del sistema, construido con **React** usando **Vite** como bundler moderno, **Tailwind CSS** y **DaisyUI** para el diseño, **Axios** para hacer peticiones HTTP al backend y **Leaflet** para mostrar mapas interactivos.
 
-Currently, two official plugins are available:
+## ⚙️ Tecnologías principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [DaisyUI](https://daisyui.com/) (plugin para Tailwind)
+- [Axios](https://axios-http.com/)
+- [Leaflet](https://leafletjs.com/) (mapas interactivos)
 
-## Expanding the ESLint configuration
+## 🧱 Estructura del proyecto
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📂 frontend/ 
+  ├── 📁 src/ │
+    ├── 📁 api/ │ 
+      └── 📄 api.js
+    ├── 📁 components/ │ 
+    ├── 📁 views/ │ 
+    └── 📄 App.jsx │ 
+    └── 📄 main.jsx 
+  ├── 📄 index.html 
+  ├── 📄 tailwind.config.js 
+  ├── 📄 vite.config.js 
+  └── 📄 package.json
+
+```bash
+git clone https://github.com/tu-usuario/tu-repo-frontend.git
+cd pruebaZonaGeoFront
+```
+
+## ▶️ instala dependencias
+  - npm install
+## ▶️ inicia servidor
+  - npm run dev
+
+## 🌍 uso de Leaflet
+  - este proyecto incluye el componente leaflet que es un mapa interactivo. para el uso de coordenadas, direcciones y mas.
+
+
+## 🎨 Estilos 
+  - Tailwind + DaisyUi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
