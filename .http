@@ -28,7 +28,7 @@ Content-Type: application/json
 
 
 ### Prueba de obtener todas las zonas
-GET http://localhost:4000/zonas
+GET http://localhost:4000/zonas/A3zRcbNcexqCZbIHRbpq
 
 
 ### Prueba de obtener todas las zonas

@@ -29,3 +29,13 @@ export const searchZonas = async (query)=>{
         console.error(error)
     }
 }
+
+export const searchZonaById = async (id)=>{
+    try {
+        const res = await axios.get(`${URL}/zonas/${id}`)
+        console.log("obtenido correactamente",res)
+        return res.data
+    } catch (error) {
+        console.error(error)
+    }
+}
